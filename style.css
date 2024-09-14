@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #e0e8ef !important;
+   
+    font-size: 14px;
+    font-family: Inter, serif !important;
+    height: 100%;
+    width: 100%;
+}
+html {
+    font-size: 16px; 
+  }
+.header-container{
+    width: 100%;
+}
+
+#header-menu li a{
+    color: #111111;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+#header-menu li a:hover{
+    color: #008FF3;
+}
+.nav-item.active .nav-link{
+    /* Màu nền cho thẻ <a> */
+     color: white; /* Màu chữ cho thẻ <a> */
+ }
+.footer-container p{
+    font-size: 15px;
+}
+.hero-actions img{
+    height: 20px;
+    width: 20px;
+    margin:0px 10px 5px 0px;
+}
+.hero-actions{
+    margin-top: 30px;
+}
+.hero-actions a{
+    width: 47%;
+   
+}
+
+.hero-actions a:hover{
+    background-color: #355d5f;
+}
+.list-unstyled li{
+    font-size: 15px;
+}
+#header-menu{
+    width: 100%;
+}
+.header-menu .row{
+    width: 100%;
+}
+.header-container img{
+    width: 40px;
+}
+.collapse.show{
+    display: block;
+}
+.hero-actions a{
+    background-color: #457476;
+    color: #fff;
+}
+.header-menu-user img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.hero-body{
+    background-color: #fff;
+    margin: 80px 0px 30px 0px;
+    border-radius: 3px;
+}
+.footer-container{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container p{
+    margin-bottom: 0;
+    line-height: 60px;
+}
+.hero-body-list{
+    padding: 80px 50px;
+}
+.module-page h1{
+    color: #111111;
+    font-weight: 600;
+}
+.module-page h2{
+    color: #111111;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.list-unstyled li{
+    margin-bottom: 9px;
+}
+.list-unstyled img{
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+}
+        .hero-section {
+            background-color: #f4f6f9;
+            padding: 50px 0;
+        }
+        .hero-section h1 {
+            font-size: 2rem;
+        }
+        .hero-section p {
+            font-size: 1.2rem;
+        }
+        @media(min-width: 767.98px) and (max-width: 991.98px) {
+            .header-container{
+               
+                position: relative;
+            }
+            .header-menu-user{
+                position: absolute;
+                right: 12px;
+                top: 5px;
+            }
+            .header-container-list{
+                display: flex;
+                justify-content: space-between
+            }
+            .hero-actions a{
+                font-size: 14px;
+           }
+           .hero-actions img{
+            height: 15px;
+            width: 15px;
+            margin:0px 5px 3px 0px;
+        }
+            
+        }
+        
+        /* Font chữ cho màn hình lớn (desktop) */
+        @media (min-width:991.98px) {
+            
+
+        }
+        /* Font chữ cho màn hình rất lớn (large desktops) */
+        @media (min-width: 1200px) {
+            body {
+                font-size: 18px; 
+              }
+            
+              h1 {
+                font-size: 2.5rem; 
+              }
+            
+              h2 {
+                font-size: 2rem;
+              }
+              #header-menu li a{
+               
+                font-size: 1rem;
+            
+            }
+            .list-unstyled li{
+                font-size: 1.2rem;
+            }
+            .footer-container p{
+                font-size: 1.2rem;
+            }
+
+        }
+        @media(min-width: 576px) and (max-width:  767.98px) {
+            .header-container{
+               
+                position: relative;
+            }
+            .header-menu-user{
+                position: absolute;
+                right: 12px;
+                top: 5px;
+            }
+            .header-container-list{
+                display: flex;
+                justify-content: space-between;
+            }
+            .hero-actions a{
+                width: 100%;
+                margin-bottom: 10px;
+                font-size: 15px;
+               
+            }
+            .hero-actions{
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 576px) {
+           
+            .header-container{
+                flex-direction: column;
+                position: relative;
+            }
+            .header-container-list{
+                display: flex;
+                justify-content: space-between;
+            }
+            .header-menu-user{
+                position: absolute;
+                right: 12px;
+                top: 5px;
+            }
+           .hero-actions a{
+                font-size: 14px;
+           }
+        }
